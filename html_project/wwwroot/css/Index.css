@@ -1,0 +1,147 @@
+﻿body {
+    color: black;
+    background-color: #cccccc;
+    font-family: "Helvetica";
+            }
+table {
+    color: black;
+}
+
+button {
+    color: white;
+    background-color:#0095f6;
+    
+}
+
+p {
+    color yellow;
+}
+
+footer {
+    color: #fafafa;
+    background-color: #cccccc;
+    font-family: "Helvetica", Apple Chancery;
+    text-emphasis-color: #cccccc;
+
+   }
+.GramButtons {
+    background-color: #0095f6;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fafafa;
+    border-radius:10px;
+    text-decoration:none !important;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+.GramButton2 {
+    background-color: #0095f6;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0095f6;
+    border-radius: 10px;
+    text-decoration: none !important;
+    padding: 2px 30px 2px 30px;
+    color: white;
+  
+}
+
+
+
+
+
+header {
+    background-color: #fafafa;
+    color: white;
+    padding:inherit;
+
+}
+header a.Font {
+    display: inline;
+    background-color: #fafafa;
+    font-family: Apple Chancery;
+    font-size:x-large;
+}
+.search {
+    background-color: #fafafa;
+}
+.imgtitle {
+    margin-left:auto;
+    margin-right:auto;
+}
+footer div.container {
+    text-align: center;
+}
+.h {
+    text-align: center;
+}
+.m {
+  text-align:center!important;
+}
+
+
+
+
+
+.CenterTable {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+.MainLinks a {
+    text-decoration: none!important;
+    color: gray;
+}
+
+.MainLinks a:hover {
+    color: black!important;
+}
+
+.CenterTable img {
+    border-radius: 50%;
+}
+
+.FooterContainer {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+ 
+}
+
+@keyframes HideContainer {
+    from {
+        visibility: visible;
+    }
+    to {
+        visibility: hidden;
+    }
+}
+
+.FooterContainer {
+    animation: HideContainer;
+    animation-delay: 5s;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-fill-mode: forwards;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.MainImages {
+    width:100px!important;
+    height:100px!important;
+}
+
+.HoverText {
+    display: none;
+    background-color: rgba(0,0,0,.8);
+    width:100px;
+    height:100px;
+}
+
+.MainImages:hover .HoverText {
+    display: block;
+}
