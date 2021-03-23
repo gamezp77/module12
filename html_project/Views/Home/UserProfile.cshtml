@@ -1,0 +1,88 @@
+﻿<form>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="FirstName">First Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="FirstName"
+                           placeholder="Add your First Name" />
+                </td>
+                </br>
+                <td>
+                    <label for="LasttName">Last Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="LasttName"
+                           placeholder="Add your Last Name" />
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                </td>
+                <td colspan="5">
+                    <input type="radio" id="MaleGender" name="gender" />
+                    <label for="MaleGender">Male</label>
+
+                    <input type="radio" id="FemaleGender" name="gender" />
+                    <label for="FemaleGender">Female</label>
+
+                    <input type="radio" id="NoResponseGender" name="gender" />
+                    <label for="NoResponseGender">Prefer not to respond</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="FavoriteColor">Select your favorite color</label>
+
+                    <input type="color" id="FavoriteColor" />
+                </td>
+                <td colspan="3">
+                    <label for="Birthday">Birthday:</label>
+                    <input type="date" id="Birthday" min="1942-12-07" max="2030-10-11" />
+                              
+                </td>
+            <tr>
+                <td colspan="3">
+                    <label for="Email">Email address:      </label>
+                    <input type="email" id="Email" size="40"
+                           placeholder="Add your Email Address" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <form action="" method="" />
+
+                    <label for="Country">Country of Residence</label>
+                    <select id="Country" name="Country"
+                       <option value="United States">United States</option>
+                       <option value="USA"> USA</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="China">China</option>
+                    <option value="Russia">Russia</option>
+                     </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ProfilePicture">Select profile image:</label>
+                </td>
+                <td colspan="3">
+                    <input type="file" id="ProfilePicture" multiple />
+                                    </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <button>Update User Information</button>
+                </td>
+
+            </tr>
+
+
+        </tbody>
+    </table>
+</form>
