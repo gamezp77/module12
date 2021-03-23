@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.html__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="html_project/wwwroot/css/Index.css">
     <Files>
-      <File FileName="html_project/wwwroot/css/Index.css" Line="44" Column="24" />
+      <File FileName="html_project/wwwroot/css/Index.css" Line="127" Column="34" />
       <File FileName="html_project/Views/Shared/_Layout.cshtml" />
       <File FileName="html_project/Views/Home/Index.cshtml" />
       <File FileName="html_project/Views/Home/Register.cshtml" />

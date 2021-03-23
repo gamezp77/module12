@@ -41,7 +41,7 @@ footer {
     border-color: #0095f6;
     border-radius: 10px;
     text-decoration: none !important;
-    padding: 2px 30px 2px 30px;
+    padding: 2px 30px 2spx 30px;
     color: white;
   
 }
@@ -124,7 +124,7 @@ footer div.container {
     animation: HideContainer;
     animation-delay: 5s;
     animation-duration: 5s;
-    animation-iteration-count: 5;
+    animation-iteration-count: 5s;
     animation-fill-mode: forwards;
     margin-left: auto !important;
     margin-right: auto !important;
