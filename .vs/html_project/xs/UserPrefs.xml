@@ -2,11 +2,12 @@
   <MonoDevelop.Ide.ItemProperties.html__project PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="html_project/wwwroot/css/Index.css">
     <Files>
-      <File FileName="html_project/wwwroot/css/Index.css" Line="127" Column="34" />
-      <File FileName="html_project/Views/Shared/_Layout.cshtml" />
-      <File FileName="html_project/Views/Home/Index.cshtml" />
-      <File FileName="html_project/Views/Home/Register.cshtml" />
-      <File FileName="html_project/Views/Home/UserProfile.cshtml" />
+      <File FileName="html_project/wwwroot/css/Index.css" Line="149" Column="1" />
+      <File FileName="html_project/Views/Shared/_Layout.cshtml" Line="13" Column="5" />
+      <File FileName="html_project/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="html_project/Views/Home/Register.cshtml" Line="1" Column="1" />
+      <File FileName="html_project/Views/Home/UserProfile.cshtml" Line="85" Column="1" />
+      <File FileName="html_project/wwwroot/css/site.css" Line="128" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,7 +28,6 @@
                 <Node name="css" expanded="True">
                   <Node name="Index.css" selected="True" />
                 </Node>
-                <Node name="images" expanded="True" />
               </Node>
             </Node>
           </Node>

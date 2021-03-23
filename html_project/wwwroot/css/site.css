@@ -63,9 +63,67 @@ body {
   margin-bottom: 60px;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
 }
+header {
+    background-color: #fafafa;
+    color: white;
+    padding: inherit;
+}
+
+    header a.Font {
+        display: inline;
+        background-color: #fafafa;
+        font-family: Apple Chancery;
+        font-size: x-large;
+    }
+
+.search {
+    background-color: #fafafa;
+}
+footer {
+    color: #fafafa;
+    background-color: #cccccc;
+    font-family: "Helvetica", Apple Chancery;
+    text-emphasis-color: #cccccc;
+}
+
+.GramButtons {
+    background-color: #0095f6;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fafafa;
+    border-radius: 10px;
+    text-decoration: none !important;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+
+.GramButton2 {
+    background-color: #0095f6;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0095f6;
+    border-radius: 10px;
+    text-decoration: none !important;
+    padding: 2px 30px 2spx 30px;
+    color: white;
+}
+.MainLinks a {
+    text-decoration: none !important;
+    color: gray;
+}
+
+    .MainLinks a:hover {
+        color: black !important;
+    }
+}
+
+footer div.container {
+    text-align: center;
+}
+    
